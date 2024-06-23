@@ -2,8 +2,8 @@ from flask import Flask, request, jsonify
 from textblob import TextBlob
 # from transformers import pipeline  # Uncomment if using transformers
 
-from flask_cors import CORS
 
+from flask_cors import CORS
 app = Flask(__name__)
 CORS(app)
 
