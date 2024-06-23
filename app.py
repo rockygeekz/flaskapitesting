@@ -9,7 +9,7 @@ CORS(app)
 
 @app.route('/', methods=['get'])
 def hello_func():
-    return "HEY your api is working"
+    return "hi your flask api is working"
 
 
 @app.route('/analyze', methods=['POST'])
