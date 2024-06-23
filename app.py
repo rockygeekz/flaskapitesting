@@ -26,5 +26,3 @@ def analyze_sentiment():
 
     return jsonify({'sentiment': sentiment_label})
 
-if __name__ == '__main__':
-    app.run(debug=True)
